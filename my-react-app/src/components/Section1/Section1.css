@@ -1,0 +1,22 @@
+.sectionInfo {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.sectionInfo div {
+    padding: 5px;
+}
+
+@media screen and (min-width: 700px) {
+    .sectionInfo {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height:auto ;
+    }
+    .sectionInfo::-webkit-scrollbar {
+        width: 0;
+    }
+
+}

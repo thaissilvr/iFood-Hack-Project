@@ -1,0 +1,27 @@
+.menuNav {
+    margin-top: 10px;
+}
+
+.menuNav ul {
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    list-style: none;
+    overflow-x: scroll;
+}
+.menuNav li {
+    display: flex;
+    padding: 5px;
+}
+.menuNav button {
+    background-color: white;
+    border: 1px solid rgb(165, 161, 159);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.menuNav button:hover {
+    background-color: rgb(231, 231, 231);
+}

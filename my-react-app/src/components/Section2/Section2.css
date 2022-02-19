@@ -1,0 +1,24 @@
+.sectionCard {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.sectionCard div {
+    display: flex;
+    padding: 5px;
+}
+
+@media screen and (min-width:500px) {
+    .sectionCard {
+        display: flex;
+        justify-content: center;
+        width:auto;
+        height:auto;
+    }
+
+    .sectionCard::-webkit-scrollbar {
+        width: 0;
+    }
+}
