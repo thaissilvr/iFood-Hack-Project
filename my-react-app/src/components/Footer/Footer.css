@@ -1,0 +1,19 @@
+.footerMain{
+    display: grid;
+    height: 40%;
+    justify-items: center;
+}
+
+.footerCity > ul{
+    grid-template-columns: repeat(4, 100px)
+}
+
+hr{
+    grid-column: 1/5;
+    width: 95%;
+    margin: 1em 0;
+}
+
+.footerItems {
+    list-style: none;
+}
