@@ -1,8 +1,40 @@
 .headerMain {
     background-color: var(--bg-color);
     color: var(--black);
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     height: 10vh;
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    box-shadow:inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    color: rgb(139, 139, 139);
+}
+
+.headerMain ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+  
+}
+
+.nav:hover{
+    cursor: pointer;
+    color: rgb(234, 29, 44);
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .headerMain {
+        position: relative;
+    }
+    .headerMain ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navSearch {
+        width: 300px;
+        border-radius: 3px;
+    }
 }
