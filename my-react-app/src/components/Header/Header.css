@@ -1,0 +1,8 @@
+.headerMain {
+    background-color: var(--bg-color);
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
+    height: 10vh;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+}
