@@ -5,7 +5,9 @@
     height: 10vh;
     box-shadow:inset 0 -1px 0 rgba(0, 0, 0, 0.1);
     color: rgb(139, 139, 139);
+    margin-left: 3px;
 }
+
 
 .headerMain ul {
     display: flex;
@@ -16,16 +18,26 @@
     list-style: none;
   
 }
+.nav {
+    margin-left: 10px;
+}
 
 .nav:hover{
     cursor: pointer;
     color: rgb(234, 29, 44);
 }
 
+.navSearch {
+    width: 300px;
+    padding: 5px;
+    border: 1.5px solid rgb(165, 161, 159);
+    border-radius: 3px;
+}
+
 
 
 @media screen and (min-width: 500px) {
-
+    
 
     .headerMain ul {
         display: flex;
