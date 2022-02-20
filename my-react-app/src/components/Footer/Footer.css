@@ -1,11 +1,5 @@
 .footerMain{
-    display: grid;
-    height: 40%;
-    justify-items: center;
-}
-
-.footerCity > ul{
-    grid-template-columns: repeat(4, 100px)
+    display: none;
 }
 
 hr{
@@ -16,4 +10,12 @@ hr{
 
 .footerItems {
     list-style: none;
+}
+
+@media screen and (min-width: 500px) {
+    .footerMain{
+        display: grid;
+        height: 40%;
+        justify-items: center;
+    }
 }
