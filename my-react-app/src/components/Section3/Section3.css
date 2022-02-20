@@ -1,0 +1,24 @@
+.sectionLatest {
+    display: flex;
+    margin: 10px 0 10px 10px;
+}
+.sectionLatest p {
+    text-align: center;
+    color: rgb(105, 104, 104);
+}
+
+.sectionLatest img {
+    border: 2px solid rgb(221, 209, 209);
+    border-radius: 60px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.title h6 {
+    color: rgb(234, 29, 44);
+}
