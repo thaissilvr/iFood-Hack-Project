@@ -1,0 +1,16 @@
+.foodCard {
+    border: 1px solid rgb(165, 161, 159); ;
+    border-radius: 0.7em;
+    width: auto;
+    margin: 1em;
+    padding: 0.5em;
+    line-height: 1em;
+}
+.foodCard ul li {
+    list-style: none;
+}
+span {
+    color: black;
+    font-weight: bold;
+    padding: 0.2em;
+}
