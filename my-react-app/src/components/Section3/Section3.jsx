@@ -18,6 +18,22 @@ export default function Section3() {
                     <img src='./HABIBS.png' />
                     <p>Habib's</p>
                 </div>
+                <div>
+                    <img src='./GENDAI.png' />
+                    <p>Gendai</p>
+                </div>
+                <div>
+                    <img src='./HABIBS.png' />
+                    <p>Habib's</p>
+                </div>
+                <div>
+                    <img src='./GENDAI.png' />
+                    <p>Gendai</p>
+                </div>
+                <div>
+                    <img src='./HABIBS.png' />
+                    <p>Habib's</p>
+                </div>
             </div>
 
         </section>
