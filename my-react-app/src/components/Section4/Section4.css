@@ -4,8 +4,7 @@
 
 .restaurants {
     display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 10px 10px 10px 10px;
 }
 
@@ -26,19 +25,19 @@
     list-style: none;
 }
 
-@media screen and (mix-width: 500px) {
+@media screen and (min-width: 500px) {
     .restaurants {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
         margin: 10px 10px 10px 10px;
+
     } 
     .container {
         display: flex;
-        width: 50%;
         border-radius: 10px;
         margin: 5px;
-    
     }
 
 }
