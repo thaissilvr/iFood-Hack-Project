@@ -1,5 +1,6 @@
 .menuNav {
     margin-top: 10px;
+    
 }
 
 .menuNav ul {
@@ -20,6 +21,8 @@
     border: 1px solid rgb(165, 161, 159);
     border-radius: 20px;
     padding: 5px;
+    color: rgb(165, 161, 159);
+    cursor: pointer;
 }
 
 .menuNav button:hover {

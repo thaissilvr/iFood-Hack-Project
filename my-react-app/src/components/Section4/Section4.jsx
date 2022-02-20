@@ -10,7 +10,7 @@ export default function Section4() {
             <div className='restaurants'>
                 <div className='container'>
                     <div className='img'><img src='./GENDAI.png' /></div>
-                    <div >
+                    <div>
                         <p><strong>Gendai</strong></p>
                         <ul className='list'>
                             <li>Cozinha: Japonesa</li>

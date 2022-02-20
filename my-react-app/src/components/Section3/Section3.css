@@ -1,10 +1,10 @@
 .sectionLatest {
     display: flex;
     margin: 10px 0 10px 10px;
+    overflow-x: auto;
 }
 .sectionLatest p {
     text-align: center;
-    color: rgb(105, 104, 104);
 }
 
 .sectionLatest img {
@@ -21,4 +21,10 @@
 
 .title h6 {
     color: rgb(234, 29, 44);
+}
+
+@media screen and (min-width: 500px) {
+    .sectionCard::-webkit-scrollbar {
+        width: 0;
+    }
 }
