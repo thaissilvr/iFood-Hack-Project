@@ -2,13 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
 import './Header.css'
-import logo from './ifood-43.png'
 
 export default function Header () {
     return (
         <header className='headerMain'>
             <ul>
-                <img src={logo} width='50px' height='30px'/>
+                <img src="ifood-43.png" width='50px' height='30px'/>
                 <li className='nav'>Restaurante</li>
                 <li className='nav'>Mercado</li>
                 <li className='nav'>Bebidas</li>
