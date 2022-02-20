@@ -2,20 +2,9 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
-import filterUnwantedIngridients from "../services/filterApi/";
-export default function Header() {
-  const [values, setValues] = useState();
-    
+export default function Header({handleChange}) {
+
  
-  async function handleChange(e) {
-    e.preventDefault();
-    setValues(e.target.value);
- 
-    const response = await filterUnwantedIngridients(values);
-    console.log("data:", response);
-    return response;
-  
-  }
   return (
     <header className="headerMain">
       <ul>
@@ -32,7 +21,6 @@ export default function Header() {
             className="navSearch"
             placeholder="Busque aqui"
             onChange={handleChange}
-            value={values}
           />
           <FontAwesomeIcon icon={faSearch} className="nav" />
         </div>
