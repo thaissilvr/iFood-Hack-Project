@@ -14,8 +14,6 @@ export default function Header () {
                 <li className='nav'>Farmácia</li>
                 <li className='nav'>Express</li>
                 <li className='nav'>Pets</li>
-
-
                 <div>
                 <input typeof='text' className='navSearch' placeholder='Busque aqui'/>
                 <FontAwesomeIcon icon={faSearch} className='nav' />
@@ -23,10 +21,6 @@ export default function Header () {
 
                 <FontAwesomeIcon icon={faUser} className='nav' />
             </ul>
-
-     
-           
-
         </header>
     )
 }
